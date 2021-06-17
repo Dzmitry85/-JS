@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <header>
+        <div class="logo">E-Shop</div>
+        <div class="cart">
+
+            <filter-el></filter-el>
+            <cart ref="cart"></cart>
+        </div>
+    </header>
+    <main>
+               <error ref="error"></error>
+        <products ref="products"></products>
+    </main>
+</div>
+<footer class='footer'>
+
+    <div class='footer_body'>
+        <div class='container footer_body_subscribe'>
+            <div class="footer_body_subcribe_left">
+                <img src="img/Intersect.png" alt="">
+                <p class='footer_body_subcribe_left_text'>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a <span > pulvinar purus condimentum“</span></p>
+            </div>
+            <div class='footer_body_subcribe_right'>
+                <p class='footer_body_subcribe_right_top'>SUBSCRIBE</p>
+                <p class='footer_body_subcribe_right_text' > FOR OUR NEWLETTER AND PROMOTION</p>
+                <input class='subcribe_input' type="Email" placeholder='Enter Your Email' >
+                <button class='subcribe_button'>
+                    <p>Subscribe</p>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class='footer_lower'>
+        <div class='footer_lower_box  container'>
+            <span class='footer_copy'>© 2021  Brand  All Rights Reserved.</span>
+            <div class="footer_basement  ">
+                <a href="#" >
+                    <img src="img/2.svg" width="31.45px" height="32px" alt="logo">
+                </a>
+                <a href="#">
+                    <img src="img/4.svg" width="31.45px" height="32px" alt="logo">
+                </a>
+                <a href="#">
+                    <img src="img/5.svg" width="31.45px" height="32px" alt="logo">
+                </a>
+                <a href="#">
+                    <img src="img/6.svg" width="31.45px" height="32px" alt="logo">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</footer >
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/ProductComponent.js"></script>
+<script src="js/CartComponent.js"></script>
+<script src="js/FilterComp.js"></script>
+<script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
