@@ -1,0 +1,14 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 756,
+            "product_name": "Windows Me",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, aperiam? .",
+            "price": 1000,
+            "imgPath": "img/756.png"
+        }
+    ]
+}
